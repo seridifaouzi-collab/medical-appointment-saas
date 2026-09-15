@@ -1,0 +1,49 @@
+{
+  "name": "medical-appointment-saas",
+  "version": "1.0.0",
+  "description": "Professional medical appointment booking SaaS platform",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3",
+    "@types/react": "^18.2.37",
+    "@types/node": "^20.10.6",
+    "next-intl": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.1.2",
+    "axios": "^1.6.5",
+    "date-fns": "^2.30.0",
+    "zustand": "^4.4.2",
+    "react-hook-form": "^7.48.0",
+    "zod": "^3.22.4",
+    "@hookform/resolvers": "^3.3.4",
+    "clsx": "^2.0.0",
+    "tailwindcss": "^3.4.0",
+    "react-icons": "^4.12.0",
+    "react-hot-toast": "^2.4.1",
+    "recharts": "^2.10.3",
+    "next-auth": "^4.24.7",
+    "framer-motion": "^10.16.16",
+    "react-select": "^5.8.0",
+    "react-big-calendar": "^1.8.5"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.17",
+    "prisma": "^5.7.1"
+  }
+}
